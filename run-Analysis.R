@@ -80,7 +80,7 @@ activity_labels<-data.frame(activity_labels)
 
 #merge Datasets together
 
-merged_test_and_train<-bind_cols(subject_data,activity_labels,test_and_train_data_x)
+merged_test_and_train<-bind_cols(subject_data,activity_labels,means_and_std)
 
 #From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
