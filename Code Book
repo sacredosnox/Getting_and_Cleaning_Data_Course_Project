@@ -1,18 +1,26 @@
 #Variables#
 
-Using (Samsung Galaxy S II) embedded accelerometer and gyroscope, we captured 3-axial linear acceleration (X,Y,Z) and 3-axial angular velocity (X,Y,Z) at a constant rate of 50Hz
+Using (Samsung Galaxy S II) embedded accelerometer and gyroscope, we captured 3-axial linear acceleration (X,Y,Z) 
+and 3-axial angular velocity (X,Y,Z) at a constant rate of 50Hz
 
-The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap
+The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled 
+in fixed-width sliding windows of 2.56 sec and 50% overlap
 
- The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity
+ The sensor acceleration signal, which has gravitational and body motion components, was separated using 
+ a Butterworth low-pass filter into body acceleration and gravity
 
-The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used.
+The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff 
+frequency was used.
 
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
 
 1 - "subjects" -  30 volunteers within an age bracket of 19-48 years
-2 - "activity_labels" - Each person performed six activities 
+2 - "activity_labels" - Each person performed six activities
+
+From all Variables available in the original dataset  "A 561-feature vector with time and frequency domain variables" 
+I only took the different mean and std variables
+
 3 - "tBodyAcc-mean()-X" 
 4 - "tBodyAcc-mean()-Y" 
 5 - "tBodyAcc-mean()-Z" 
