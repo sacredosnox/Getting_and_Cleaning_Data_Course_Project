@@ -14,12 +14,14 @@ frequency was used.
 
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
+- Fourier signals are for 128 samples at 50 Hz
 
 1 - "subjects" -  30 volunteers within an age bracket of 19-48 years
 2 - "activity_labels" - Each person performed six activities
 
 From all Variables available in the original dataset  "A 561-feature vector with time and frequency domain variables" 
 I only took the different mean and std variables
+
 
 3 - "tBodyAcc-mean()-X" 
 4 - "tBodyAcc-mean()-Y" 
