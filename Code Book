@@ -20,7 +20,7 @@ frequency was used.
 2 - "activity_labels" - Each person performed six activities
 
 From all Variables available in the original dataset  "A 561-feature vector with time and frequency domain variables" 
-I only took the different mean and std variables
+I only took the different mean and std variables and calculated mean and std for every person/activity
 
 
 3 - "tBodyAcc-mean()-X" 
