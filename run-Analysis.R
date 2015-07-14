@@ -52,7 +52,7 @@ means_and_std<-test_and_train_data_x[grep("((mean|std){1}(freq){0,}[(][)])",name
 
 #bind subject_test_labeled and subject_train_labeled together
 
-subject_data<-rbind(subject_test_labeld,subject_train_labeld)
+subject_data<-rbind(subject_test_labeled,subject_train_labeled)
 
 #bind test_data_x_labeled and train_data_y_labeled together
 
